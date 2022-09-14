@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #DFDFDF;
+    border: 1px solid #B5B7BA;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header__link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 74px;
+}
+
+.corners {
+    border-radius: 100px;
+}
+
+.content {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 60px;
+}
+
+.text {
+    width: 600px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.one_block_foto {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(3, 350px);
+    padding-bottom: 30px;
+}
+
+.list {
+    display: table;
+    width: 100%;
+    background: #eee;
+    padding: 0 0 20px;
+}
+
+.list strong {
+    display: block;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-size: 23px;
+}
+
+.soder {
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-right: 40px;
+    margin-right: 20px;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+.info li {
+    background-repeat: no-repeat;
+    padding: 0 0 15px 30px;
+    max-width: 90%;
+    line-height: 26px;
+    background-image: url(img/logo.png);
+    background-size: 20px;
+    font-size: 18px;
+    font-style: normal;
+}
+
+h2 {
+    margin: 40px 40px 15px 40px;
+}
+
+.two_block_foto {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(4, 350px);
+    padding-bottom: 30px;
+}
+
+.footer {
+    background: #404243;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #C5C5C5;
+    margin-top: 117px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
